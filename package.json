@@ -1,0 +1,23 @@
+{
+    "name": "migraine-dark",
+    "displayName": "Migraine Dark",
+    "publisher": "happens-nika",
+    "description": "Monochrome, low constrast theme. Inspired by Alabaster Dark Mono by Nikita Prokopov",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "repository": {"type": "git", "url": "https://github.com/happens-nika/migraine-dark"},
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Migraine Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Migraine Dark-color-theme.json"
+            }
+        ]
+    }
+}
